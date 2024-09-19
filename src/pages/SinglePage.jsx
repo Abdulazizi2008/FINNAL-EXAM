@@ -144,7 +144,7 @@ function SinglePage() {
           <Line data={chartData} options={chartOptions} />
         </div>
       </div>
-      <div className="flex items-center gap-[38px] pl-[550px] mt-[-100px]">
+      <div className="flex items-center gap-[38px] pl-[580px] mt-[-100px]">
         <button className="w-[200px] border-[1px] border-[#87CEEB] duration-500 text-white py-[6px] pl-[21px] flex justify-start hover:bg-[#87CEEB] hover:text-black">
           24 Hours
         </button>
