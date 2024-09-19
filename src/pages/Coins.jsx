@@ -213,6 +213,9 @@ function Coins({ currency, isOpen, setIsOpen }) {
         </Drawer.Items>
       </Drawer>
       <Hero selectedCoin={selectedCoin} currency={currency} />
+      <div className="text-white text-[34px] font-[400] text-center pt-[18px]">
+        Cryptocurrency Prices by Market Cap
+      </div>
       {loading && <p>Loading...</p>}
       <div className="max-w-[1140px] mx-auto ">
         <Table theme={customTheme} className="mt-[40px]">
